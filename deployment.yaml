@@ -18,6 +18,8 @@ spec:
         - image: sasa94s/udagram-frontend
           name: udagram-frontend
           imagePullPolicy: Always
+          ports:
+            - containerPort: 80
           resources:
             requests:
               memory: "64Mi"
